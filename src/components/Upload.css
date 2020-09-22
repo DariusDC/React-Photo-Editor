@@ -1,0 +1,40 @@
+.upload {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.drag-container {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashed-container {
+  border: 3px dashed gray;
+}
+
+.add-btn {
+  width: 20rem;
+  padding: 3rem 2.2rem;
+  font-size: 2rem;
+  color: dodgerblue;
+  border: 2px solid dodgerblue;
+  border-radius: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.add-btn:hover {
+  background-color: #fff;
+}
+
+h2 {
+  font-size: 4rem;
+  color: dodgerblue;
+}

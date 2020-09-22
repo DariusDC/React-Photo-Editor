@@ -1,0 +1,17 @@
+.save {
+  margin-top: 1.3rem;
+  max-height: 1rem;
+  max-width: 1rem;
+  padding: 1.4rem 5rem;
+  border: 2px solid dodgerblue;
+  border-radius: 30px;
+  outline: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+.save:hover {
+  background-color: dodgerblue;
+  color: #fff;
+}
